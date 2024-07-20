@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Parcel</title>
+    <link rel="stylesheet" href="/index.044e704e.css">
+    <script src="/index.18dbc454.js" defer=""></script>
+  </head>
+  <body>
+    <header>
+      <!--menù principale-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/logo.648f5d62.jpg" alt="" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="main-menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chi siamo</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contatti</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 border-0 border-bottom" type="search" placeholder="Aa" aria-label="Search">
+              <button class="btn btn-secondary text-light" type="submit">
+                Cerca
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/slide1.f524e076.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>HOTEL MARE</h5>
+              <p>Un'oasi di pace e tranquillità</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/slide2.edc1be61.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Le nostre camere</h5>
+              <p>Eleganti, lussuose e con vista mare</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- form richieste prenotazioni-->
+
+      <form class="row gy-2 gx-3 m-3 align-items-end justify-content-center">
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingInput">Nome</label>
+          <input type="text" class="form-control" id="autoSizingInput" placeholder="Nome">
+        </div>
+        <div class="col-auto">
+          <label class="" for="autoSizingInput">Arrivo</label>
+          <input type="date" class="form-control" id="autoSizingInput">
+        </div>
+        <div class="col-auto">
+          <label class="" for="autoSizingInput">Partenza</label>
+          <input type="date" class="form-control" id="autoSizingInput">
+        </div>
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+
+          <select class="form-select" id="autoSizingSelect">
+            <option selected="">Camera</option>
+            <option value="1">Standard</option>
+            <option value="2">Luxury</option>
+            <option value="3">Premium</option>
+          </select>
+        </div>
+
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary text-light">
+            Prenota
+          </button>
+        </div>
+      </form>
+
+      <!--le camere-->
+
+      <div class="container mb-3">
+        <div class="row mb-3">
+          <div class="col-12 text-center">
+            <h1 class="title">Le Camere</h1>
+            <p class="text-grey">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              suscipit?
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <img src="/standard.3170e75c.jpg" class="img-fluid mb-3" alt="">
+            <h3 class="title">Standard</h3>
+            <p class="text-grey">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="btn btn-primary text-light">Scopri</button>
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/luxury.18bc3164.jpg" class="img-fluid mb-3" alt="">
+            <h3 class="title">Luxury</h3>
+            <p class="text-grey">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="btn btn-primary text-light">Scopri</button>
+          </div>
+          <div class="col-md-4 mb-5">
+            <img src="/luxury.18bc3164.jpg" class="img-fluid mb-3" alt="">
+            <h3 class="title">Premium</h3>
+            <p class="text-grey">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="btn btn-primary text-light">Scopri</button>
+          </div>
+        </div>
+      </div>
+
+      <!--newsletter-->
+      <div class="container-fluid bg-primary py-5 mb-6">
+        <div class="container text-light">
+          <div class="row">
+            <div class="col-sm-6">
+              <h3 class="title">Iscriviti alla Newsletter...</h3>
+              <p class="text-uppercase">
+                <small>...per non perdere le nostre offerte speciali!</small>
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <!--form newsletter-->
+              <form class="row mt-2">
+                <div class="col-auto mb-2">
+                  <label for="inputEmail" class="visually-hidden">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light">
+                    Iscriviti
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mb-3 px-3">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-4 text-grey mb-4">
+            <img src="/logo.648f5d62.jpg" height="50" class="mb-2" alt="Logo azienda">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>© Hotel Mare - P.IVA 123456789</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h6 class="text-primary mb-3">LINK</h6>
+            <ul class="list-unstylide">
+              <li><a class="text-dark" href=""></a>Home</li>
+              <li><a class="text-dark" href=""></a>Chi siamo</li>
+              <li><a class="text-dark" href=""></a>Contatti</li>
+              <li><a class="text-dark" href=""></a>Privacy Policy</li>
+              <li><a class="text-dark" href=""></a>Termini e Condizioni</li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-grey">
+            <h6 class="text-primary mb-3">CONTATTI</h6>
+
+            <!--indirizzo-->
+            <div class="d-md-flex align-items-baseline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewbox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
+              </svg>
+              <p class="ms-2">Via dei Soldati, 20 <br>00148 Roma</p>
+            </div>
+
+            <!--telefono-->
+            <div class="d-md-flex align-items-baseline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewbox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"></path>
+              </svg>
+              <p class="ms-2">+39 333.1234567</p>
+            </div>
+            <!--mail-->
+
+            <div class="d-md-flex align-items-baseline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewbox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path>
+              </svg>
+              <p class="ms-2">
+                <a href="mailto:info@info.it">info@info.it</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

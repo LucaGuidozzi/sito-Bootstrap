@@ -1,0 +1,12 @@
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "grey": #929292,
+  )
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 500px,
+  md: 750px,
+  lg: 1000px,
+);
